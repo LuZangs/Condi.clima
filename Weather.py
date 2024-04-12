@@ -21,7 +21,7 @@ def ouvi_microphone():
         print("Não entendi")
     
     # Faça uma solicitação à API OpenWeatherMap para obter as informações
-    api_key = "e19bcae1082079012dd2d847cb3f2b50" #chave da api
+    api_key = "SUA CHAVE API" #chave da api
 #link para fazer a busca
     weather_url = f"http://api.openweathermap.org/data/2.5/weather?q={frase}&appid={api_key}"
 #pega a informação retornada da url 
